@@ -1,0 +1,114 @@
+json in csrf
+login page posibility
+insecure design
+how to perform sql in api
+clickjacking impact
+clickjack prevent
+is csp prevent clickjacking
+why csp is need
+is there csp prevent clickjacking, never work click jacking
+Tick client methodology
+dll hijacking
+if the android application based on flutter then how do you bypass root
+where store database files
+which permission should be allowed in android
+how to bypass ssl pinning or root detection bypass without any tools.
+CSRF can be happen in xml
+deference between Sql & NoSql 
+How do you find nosql vulnerabilty
+How many way to bypass android root
+Web socket hijacking
+API technical test
+Buffer overflow
+what is the impact from xss attack if you found it on login page
+salty vs hashing
+where do you implement cors
+what are the header of jwt
+business logic flow senario
+How many attack can be possible on login page without credential
+what is Insecure design and test cases
+what is SSI and what is impact and how to mitigate it
+XSS attack can be possible on login page
+what is the impact if you found reflected xss attack on client side only.
+deference between DOM and Reflected XSS
+What is TRACE and to perform it on website
+XSS on LOGIN page severity and why.
+if any page have error base attack but does not show any responce what should you do
+what is NoSQL and how do you perform Boolean base attack and what are the mitigation
+What is Race condition and how to perform it
+what is the Root cauuses of SQL injection
+diference between CSRF and SSRF 
+You have a ecommerece web site , How many attack do you perform on the site
+What is mitigation technique of SSRF
+If CSRF token is not implemented on body but the CSRF token in the request body, so CSRF attack can be posible or not if possible then how to do it.
+deference betwee XXE and SSRF
+XXE mitigation
+Is it possible to perform XXE on Json request
+How will you bypass file extension validation if there have already secure filter by (jpg and %00 \x00)
+in cors attack you have responce like this, is it vulnerable if vuln then how do you attack
+		3rd Case:
+		Response:
+		Access-Controll-allow-origin: *
+		Access-Controll-allow-credential:true
+How do you perform insecure deserialisasion and waht are the attacking senareio, how to prevent na dwhat is the impact.
+Java deserialization impqct and mitigation.
+How do you attack directory traverse on API jeson request
+LFI & RFI
+How does OAuth 2.0 work?
+CLRF injection test case and what is the impact on client side and server side as well
+HTTP Request smuggling?
+HTTP Host header attacks
+HTTP COOKIE flags and its significance.
+what is template injection and how many types and deference of them
+JWT headers part
+Is it safe to send data in GET method.
+Oauth token and its vulnerabilities.
+How to perform CSRF attack on JSON based application
+what is the deference between cors and sop
+How to perform DOM xss attack and how to mitigate via code level and where you perform dom xss.
+Security header and how to work those 
+what is encoding, hashing, and encryption with example
+How you can confirm that string either ENCODED, HASHED or ENCRYPTED by looking at it.
+How hashes can be cracked.
+What is rainbow table.
+What is Digital Signeture and how it works.
+SSL pinning on IOS and Mitigation:
+Is that Jail breaking device detective is not configured in ios device, how to mitigate this obserbasion?
+How to perorf xss through crlf
+if I implement cookies on html body the is it 100% prevent the csrf attack or can be possible? if possible then what is the other process?
+
+
+
+
+
+Senerio base questions:
+1)
+
+
+Practical: 
+1) Found vulnerability
+must Mass assignment attack will be one of them
+
+https://codefile.io/f/vMsO84XKmU
+
+Here is the curl to get weather update, send this request to the burp suite :
+
+curl "https://api.open-meteo.com/v1/forecast?latitude=52.52&longitude=13.41&current=temperature_2m,wind_speed_10m&hourly=temperature_2m,relative_humidity_2m,wind_speed_10m"
+{
+  "current": {
+    "time": "2022-01-01T15:00"
+    "temperature_2m": 2.4,
+    "wind_speed_10m": 11.9,
+  },
+  "hourly": {
+    "time": ["2022-07-01T00:00","2022-07-01T01:00", ...]
+    "wind_speed_10m": [3.16,3.02,3.3,3.14,3.2,2.95, ...],
+    "temperature_2m": [13.7,13.3,12.8,12.3,11.8, ...],
+    "relative_humidity_2m": [82,83,86,85,88,88,84,76, ...],
+  }
+}
+
+
+2) Found vulnerability as much as
+SSRF is main
+Domain : www.site-shot.com
